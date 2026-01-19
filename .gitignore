@@ -1,0 +1,5 @@
+data/
+results/spades_results/
+results/prokka_results/
+results/trimmomatic_results/
+results/fastqc_results/
