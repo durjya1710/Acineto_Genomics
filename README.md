@@ -32,11 +32,11 @@ conda activate prokka_m1_env
 │   └── analysis.sh        # Downstream analysis
 └── README.md              # Project documentation
 
-## Methodology
-1. **Quality Control**: Trimming and filtering of raw FASTQ reads.
-2. **Assembly**: *De novo* assembly using **SPAdes**.
-3. **Annotation**: Functional gene annotation using **Prokka**.
-4. **AMR Identification**: Resistance gene detection via **AMRFinderPlus**.
+# Methodology
+1. Quality Control: Trimming and filtering of raw FASTQ reads.
+2. Assembly: *De novo* assembly using **SPAdes**.
+3. Annotation: Functional gene annotation using **Prokka**.
+4. AMR Identification: Resistance gene detection via **AMRFinderPlus**.
 
 ## How to Run
 To replicate this analysis, ensure you have Conda installed and run:
