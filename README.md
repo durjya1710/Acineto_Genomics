@@ -12,6 +12,12 @@ This project processes raw genome sequencing datasets of *Acinetobacter baumanni
 - Genome Assembly : SPAdes 
 - Genome Alignment (optional step): Bowtie2
 - Genome Annotation: (Prokka) 
+
+#Methodology
+1. Quality Control: Trimming and filtering of raw FASTQ reads.
+2. Assembly: *De novo* assembly using **SPAdes**.
+3. Annotation: Functional gene annotation using **Prokka**.
+4. AMR Identification: Resistance gene detection via **AMRFinderPlus**.
  
 #Installation and Setup:
 To replicate this environment and run the pipeline, use the provided YAML file:
@@ -31,12 +37,6 @@ conda activate prokka_m1_env
 │   ├── prokka_analysis.sh # Annotation script
 │   └── analysis.sh        # Downstream analysis
 └── README.md              # Project documentation
-
-# Methodology
-1. Quality Control: Trimming and filtering of raw FASTQ reads.
-2. Assembly: *De novo* assembly using **SPAdes**.
-3. Annotation: Functional gene annotation using **Prokka**.
-4. AMR Identification: Resistance gene detection via **AMRFinderPlus**.
 
 ## How to Run
 To replicate this analysis, ensure you have Conda installed and run:
